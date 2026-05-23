@@ -1,6 +1,4 @@
 import pandas as pd
-import numpy as np
-
 
 def data_processing(df: pd.DataFrame) -> pd.DataFrame:
     #Tratamento de colunas desnecessárias
@@ -21,7 +19,6 @@ def data_processing(df: pd.DataFrame) -> pd.DataFrame:
 
     df['mean_adherence_pct'] = df['mean_adherence_pct'].clip(lower=0, upper=100)
     df['age'] = df['age'].clip(lower=16, upper=100)
-    df['sleep_hours'] = df['sleep_hours'].clip(lower=2, upper=15)
     df['motivation_score'] = df['motivation_score'].clip(upper=1.0)
     df['weight_change_kg_6m'] = df['weight_change_kg_6m'].clip(lower=-40, upper=40)
 
@@ -38,15 +35,15 @@ def data_processing(df: pd.DataFrame) -> pd.DataFrame:
 
     #Metodo IQR (limitação)
 
-    cols_outliers_iqr = ['sodium_limit_mg', 'fiber_target_g', 'years_experience']
+    cols_outliers_iqr = ['sodium_limit_mg', 'fiber_target_g', 'years_experience', 'height_cm', 'baseline_weight_kg', 'sleep_hours']
 
     for col in cols_outliers_iqr:
-        Q1 = df[col].quantile(0.25)
-        Q3 = df[col].quantile(0.75)
-        IQR = Q3 - Q1
+        q1 = df[col].quantile(0.25)
+        q3 = df[col].quantile(0.75)
+        iqr = q3 - q1
 
-        limite_inferior = Q1 - 1.5 * IQR
-        limite_superior = Q3 + 1.5 * IQR
+        limite_inferior = q1 - 1.5 * iqr
+        limite_superior = q3 + 1.5 * iqr
 
         df = df[(df[col] >= limite_inferior) & (df[col] <= limite_superior)]
 
