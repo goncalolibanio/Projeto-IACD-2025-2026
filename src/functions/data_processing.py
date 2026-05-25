@@ -48,4 +48,3 @@ def data_processing(df: pd.DataFrame) -> pd.DataFrame:
         df = df[(df[col] >= limite_inferior) & (df[col] <= limite_superior)]
 
     return df
-
