@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "projeto_iacd"
 version = "0.1.0"
-description = "$"
+description = "Projeto de Elementos de IACD - Ano Letivo 25/26"
 authors = [
     {name = "Caio Santos"},
     {name = "Eva Trindade"},
