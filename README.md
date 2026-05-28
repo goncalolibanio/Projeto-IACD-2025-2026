@@ -54,7 +54,7 @@ Random Forest		    3.366		2.364		0.805
 Gradient Boosting	  3.243		2.089		0.819
 
 
-### 📂 Estrutura do Repositório
+# 📂 Estrutura do Projeto
 
 ├── data/                   # Pasta com os ficheiros CSV originais (se aplicável/público)
 ├── scripts/
@@ -67,8 +67,7 @@ Gradient Boosting	  3.243		2.089		0.819
 ├── Relatorio_Trabalho_Pratico_IA.pdf # Relatório técnico final
 └── README.md               # Este documento
 
-
-### 🚀 Como Executar o Projeto:
+# 🚀 Como Executar o Projeto:
 
 Abrir o ficheiro e o analysis.ipynb e correr sequencialmente as células do notebook
 
