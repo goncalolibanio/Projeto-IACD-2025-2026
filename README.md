@@ -44,7 +44,7 @@ Extração de padrões (ex: Sazonalidade vs. Idade e Perfil do Nutricionista vs.
 Avaliação de modelos supervisionados de regressão para prever a variação de peso, com divisão de dados Train/Test (80/20) e otimização de hiperparâmetros (GridSearch).
 
 
-
+```
 Modelo			        RMSE		MAE		  R² Score
 
 Regressão Linear	  3.278		2.325		0.815
@@ -52,6 +52,7 @@ Regressão Linear	  3.278		2.325		0.815
 Random Forest		    3.366		2.364		0.805
 
 Gradient Boosting	  3.243		2.089		0.819
+```
 
 
 # 📂 Estrutura do Projeto
@@ -71,4 +72,5 @@ Gradient Boosting	  3.243		2.089		0.819
 
 Abrir o ficheiro e o analysis.ipynb e correr sequencialmente as células do notebook
 
-GERADO COM APOIO DE IA GENERATIVA
+
+# GERADO COM APOIO DE IA GENERATIVA
