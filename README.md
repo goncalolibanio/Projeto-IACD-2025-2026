@@ -62,9 +62,7 @@ Gradient Boosting	  3.243		2.089		0.819
 │   └── data_processing.py  # Script de limpeza, clipping e imputação
 ├── notebooks/
 │   └── analise_dietas.ipynb # Notebook principal com EDA, Clusters e ML
-├── apresentacao/
-│   └── apresentacao_5min_ubi.html # Ficheiro da apresentação final interativa
-├── Relatorio_Trabalho_Pratico_IA.pdf # Relatório técnico final
+|
 └── README.md               # Este documento
 ```
 
