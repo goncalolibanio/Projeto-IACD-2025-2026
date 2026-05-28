@@ -55,7 +55,7 @@ Gradient Boosting	  3.243		2.089		0.819
 
 
 # 📂 Estrutura do Projeto
-
+```
 ├── data/                   # Pasta com os ficheiros CSV originais (se aplicável/público)
 ├── scripts/
 │   ├── read_data.py        # Script de junção relacional dos datasets
@@ -66,6 +66,8 @@ Gradient Boosting	  3.243		2.089		0.819
 │   └── apresentacao_5min_ubi.html # Ficheiro da apresentação final interativa
 ├── Relatorio_Trabalho_Pratico_IA.pdf # Relatório técnico final
 └── README.md               # Este documento
+```
+
 
 # 🚀 Como Executar o Projeto:
 
