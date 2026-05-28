@@ -70,7 +70,7 @@ Gradient Boosting	  3.243		2.089		0.819
 
 # 🚀 Como Executar o Projeto:
 
-Abrir o ficheiro e o analysis.ipynb e correr sequencialmente as células do notebook
+Abrir o ficheiro "analysis.ipynb" e correr sequencialmente as células do notebook
 
 
 # GERADO COM APOIO DE IA GENERATIVA
